@@ -1,0 +1,14 @@
+.playerBar {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 821px;
+}
+
+@media only screen and (max-width: 960px)  {
+    .playerBar {
+        height: 480px;
+    }
+}

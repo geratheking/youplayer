@@ -1,0 +1,25 @@
+.appBody {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+.main {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 960px)  {
+    .appBody {
+        width: 99%;
+    }
+    .main {
+        flex-direction: column-reverse;
+    }
+}
